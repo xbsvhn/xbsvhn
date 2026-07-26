@@ -1,18 +1,21 @@
 <div align="center">
-
+<table border="0">
+<tr>
+<td valign="middle" align="center">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/portrait-light.svg" />
-  <img src="assets/portrait-dark.svg" width="270" alt="Nam" />
+<source media="(prefers-color-scheme: light)" srcset="assets/portrait-light.svg" />
+<img src="assets/portrait-dark.svg" width="200" alt="Nam" />
 </picture>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=false&width=435&lines=Hi+%F0%9F%91%8B+I'm+Nam" alt="Typing SVG" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=8B949E&center=true&vCenter=true&width=600&lines=Software+Engineer+%C2%B7+QA+Lead+%C2%B7+BA+%C2%B7+Mentor;Building+quality+into+every+layer+of+software;From+code+to+people+%E2%80%94+I+care+about+both" alt="Typing SVG" />
-
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/namvuhoai/)
-
+</td>
+<td valign="middle" align="left">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&vCenter=true&repeat=false&width=380&lines=Hi+%F0%9F%91%8B+I'm+Nam" alt="Hi I'm Nam" />
+<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1500&color=8B949E&vCenter=true&width=520&lines=Software+Engineer+%C2%B7+QA+Lead+%C2%B7+BA+%C2%B7+Mentor;Building+quality+into+every+layer+of+software;From+code+to+people+%E2%80%94+I+care+about+both" alt="Software Engineer / QA Lead / BA / Mentor" />
+<br><br>
+<a href="https://www.linkedin.com/in/namvuhoai/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</td>
+</tr>
+</table>
 </div>
 
 <br>
