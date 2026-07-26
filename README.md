@@ -101,6 +101,20 @@ A comprehensive, open-source knowledge base built from years of hands-on experie
 
 <br>
 
+## 🐍 &nbsp;Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xbsvhn/xbsvhn/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xbsvhn/xbsvhn/output/github-snake.svg" />
+  <img alt="Snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/xbsvhn/xbsvhn/output/github-snake.svg" />
+</picture>
+
+</div>
+
+<br>
+
 ---
 
 <div align="center">
