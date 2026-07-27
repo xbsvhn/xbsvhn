@@ -4,7 +4,8 @@
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/namvuhoai/)
+<a href="https://www.linkedin.com/in/namvuhoai/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://xbsvhn.github.io/qa-engineer-hub/"><img src="https://img.shields.io/badge/QA_Engineer_Hub-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="QA Engineer Hub" /></a>
 
 </div>
 
@@ -18,64 +19,20 @@ I don't fit into one box. I connect the dots between **engineering, quality, peo
 
 <br>
 
-## 🛠️ &nbsp;What I Bring to the Table
+## 🧰 &nbsp;Tech Stack
 
-<table>
-<tr>
-<td align="center" width="25%">
+<div align="center">
 
-**🔧 Engineering**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,java,spring,kotlin,androidstudio,postgres,redis,docker,git,py&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,java,spring,kotlin,androidstudio,postgres,redis,docker,git,py&theme=light" alt="TypeScript, React, Next.js, Tailwind, Java, Spring Boot, Kotlin, Android, PostgreSQL, Redis, Docker, Git, Python" />
+</picture>
+
 <br><br>
-Java · Spring Boot
-<br>
-Kotlin · Android
-<br>
-Microservices
-<br>
-REST API · SQL
 
-</td>
-<td align="center" width="25%">
+<sub>+ &nbsp;Apache Kafka &nbsp;·&nbsp; Microservices &nbsp;·&nbsp; REST APIs &nbsp;·&nbsp; WebSocket &nbsp;·&nbsp; JUnit / Vitest &nbsp;·&nbsp; CI/CD</sub>
 
-**🔍 Quality**
-<br><br>
-QA Strategy
-<br>
-Test Architecture
-<br>
-Automation
-<br>
-Performance Testing
-
-</td>
-<td align="center" width="25%">
-
-**📋 Analysis**
-<br><br>
-Requirements
-<br>
-Process Design
-<br>
-Stakeholder Mgmt
-<br>
-Documentation
-
-</td>
-<td align="center" width="25%">
-
-**🎯 Leadership**
-<br><br>
-Team Mentoring
-<br>
-Training & Coaching
-<br>
-Client Delivery
-<br>
-Technical Talks
-
-</td>
-</tr>
-</table>
+</div>
 
 <br>
 
@@ -110,25 +67,5 @@ A comprehensive, open-source knowledge base built from years of hands-on experie
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xbsvhn/xbsvhn/output/github-snake.svg" />
   <img alt="Snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/xbsvhn/xbsvhn/output/github-snake.svg" />
 </picture>
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-<br>
-
-*"Ngàn nến có thể được thắp từ một ngọn nến, mà đời ngọn nến ấy không vì thế ngắn đi.*
-<br>
-*Hạnh phúc không bao giờ vơi đi khi được chia sẻ."*
-<br>
-**— Đức Phật**
-
-<br>
-
-![](https://komarev.com/ghpvc/?username=xbsvhn&color=grey&style=flat&label=)
 
 </div>
