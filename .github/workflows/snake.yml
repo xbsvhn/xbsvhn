@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Activity SVGs
 
 on:
   # regenerate every 12 hours so it tracks fresh contributions
@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs
+      - name: Generate contribution-snake SVGs
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -27,10 +27,28 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push SVGs to the output branch
+      # Cache the streak card as static SVGs. The live streak-stats demo is
+      # slow (4-13s) and makes GitHub's image proxy time out -> broken image.
+      # Serving a committed static file is instant and never breaks.
+      - name: Cache streak-stats SVGs
+        env:
+          GH_USER: ${{ github.repository_owner }}
+        run: |
+          mkdir -p dist
+          fetch () {
+            curl -sfL --retry 4 --retry-delay 6 --max-time 40 "$1" -o "$2.tmp" \
+              && mv "$2.tmp" "$2" && echo "ok: $2" \
+              || { echo "WARN: fetch failed for $2 (keeping previous version)"; rm -f "$2.tmp"; }
+          }
+          BASE="https://streak-stats.demolab.com?user=${GH_USER}&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D"
+          fetch "${BASE}&theme=github-dark" dist/streak-dark.svg
+          fetch "${BASE}&theme=default"     dist/streak-light.svg
+
+      - name: Publish SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
