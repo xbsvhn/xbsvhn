@@ -58,16 +58,9 @@ A comprehensive, open-source knowledge base built from years of hands-on experie
 
 <br>
 
-## 📊 &nbsp;GitHub Activity
+## 🐍 &nbsp;Contribution Snake
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=xbsvhn&theme=github-dark&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D" />
-  <img src="https://streak-stats.demolab.com?user=xbsvhn&theme=default&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D" alt="GitHub streak stats" />
-</picture>
-
-<br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xbsvhn/xbsvhn/output/github-snake-dark.svg" />
